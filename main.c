@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    char name[20];
-    printf("enter your name", name);
-    fgets(name, 20, stdin);
-    printf("Your name is %s", name);
-    return 0;
+    int num1;
+    int num2;
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+    printf("Your answer is %d", num1+num2);
 }
