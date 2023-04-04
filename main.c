@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    printf("   /|\n");
-    printf("  / |\n");
-    printf(" /  |\n");
-    printf("/___|\n");
+    char name[20];
+    printf("enter your name", name);
+    scanf("%s", name);
+    printf("Your name is %s", name);
     return 0;
 }
