@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int num1;
-    int num2;
+    double num1;
+    double num2;
     printf("Enter first number: ");
-    scanf("%d", &num1);
+    scanf("%lf", &num1); //we use lf when we are scanning for a number
     printf("Enter second number: ");
-    scanf("%d", &num2);
-    printf("Your answer is %d", num1+num2);
+    scanf("%lf", &num2);
+    printf("Your answer is %f ", num1+num2);
 }
